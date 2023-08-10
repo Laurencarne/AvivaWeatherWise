@@ -9,19 +9,23 @@ I have made this application for the purpose of a software assesment for Aviva.
 
 <div id="socialMedia" align="center">
 
+
   
 <h3>Current and Forecast</h3>
-<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/e6f95d5b-ce9b-4c87-bd74-cbbf75cf3392" width="200">
-<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/834082e3-7b5c-4033-9f27-2e413290bb58" width="200">
+<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/e261753d-727d-4d91-a011-31d58bb9d303" width="200">
+<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/36d8d90f-d307-415f-9454-fe28d2d239f6" width="200">
   
 <h3>Location Search</h3>
 <img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/0f0fe506-b9a3-48ab-9d3c-b8a4edd24f72" width="200">
 <img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/4725511e-97f8-42e7-bcc9-5e6440799d95" width="200">
 <img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/076b10df-29e8-421f-96e5-ca59c1dd0be4" width="200">
 
-https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/0706cb7f-dd74-4710-ad9a-9847eef3d1bb
+https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/a5b3e10c-0a39-4f26-bb72-2dd0ab77e008
 
 </div>
+
+
+
 
 
 ## Main technologies used
