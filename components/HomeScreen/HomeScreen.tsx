@@ -21,22 +21,22 @@ import {
   type Astro,
   FetchResponse,
 } from "../Data/types";
-import { apiKey, astonomyUrl, baseUrl, currentUrl } from "../api";
+import { astonomyUrl, baseUrl, currentUrl } from "../api";
 import { LocationQueryContext } from "../LocationQueryContext";
 import haptic from "../DesignSystem/haptics";
+import { API_KEY } from "@env";
 
 const icon = require("../../assets/InvertedLogo.png");
 
 export function HomeScreen({ navigation }: { navigation: Navigation }) {
   const locationQuery = useContext(LocationQueryContext).locationQuery;
   const [weather, setWeather] = useState<FetchResponse<CurrentWeather>>();
-
   useEffect(() => {
     async function fetchWeatherData() {
       try {
         setWeather({ state: "loading" });
         const response = await fetch(
-          `${baseUrl}${currentUrl}?key=${apiKey}&q=${locationQuery}`
+          `${baseUrl}${currentUrl}?key=${API_KEY}&q=${locationQuery}`
         );
         if (!response.ok) {
           return setWeather({
@@ -197,7 +197,7 @@ const AstroSummary = React.memo(
         try {
           setAstro({ state: "loading" });
           const response = await fetch(
-            `${baseUrl}${astonomyUrl}?key=${apiKey}&q=${locationQuery}`
+            `${baseUrl}${astonomyUrl}?key=${API_KEY}&q=${locationQuery}`
           );
           if (!response.ok) {
             return setAstro({

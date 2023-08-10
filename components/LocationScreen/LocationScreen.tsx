@@ -1,3 +1,4 @@
+import { API_KEY } from "@env";
 import {
   ScrollView,
   StyleSheet,
@@ -8,7 +9,7 @@ import {
 import React, { Dispatch, useCallback, useContext, useState } from "react";
 import type { Navigation } from "../Navigation/MainStack.types";
 import type { FetchResponse, Search } from "../Data/types";
-import { apiKey, baseUrl, searchUrl } from "../api";
+import { baseUrl, searchUrl } from "../api";
 import { colors } from "../DesignSystem/colors";
 import { icons } from "../DesignSystem/icons/index";
 import { Text } from "../DesignSystem/Text";
@@ -60,7 +61,7 @@ const SearchBar = React.memo(
       try {
         setSearchResults({ state: "loading" });
         const response = await fetch(
-          `${baseUrl}${searchUrl}?key=${apiKey}&q=${searchText}`
+          `${baseUrl}${searchUrl}?key=${API_KEY}&q=${searchText}`
         );
         if (!response.ok) {
           return setSearchResults({

@@ -1,3 +1,4 @@
+import { API_KEY } from "@env";
 import { Image, ScrollView, StyleSheet, View } from "react-native";
 import { Text } from "../DesignSystem/Text";
 import React, { useCallback, useContext, useEffect, useState } from "react";
@@ -11,7 +12,7 @@ import type {
   ForecastDayObject,
   Location,
 } from "../Data/types";
-import { apiKey, baseUrl, forecastUrl } from "../api";
+import { baseUrl, forecastUrl } from "../api";
 import { colors } from "../DesignSystem/colors";
 import { DateTime } from "luxon";
 import { icons } from "../DesignSystem/icons/index";
@@ -27,7 +28,7 @@ export function ForecastScreen({ navigation }: { navigation: Navigation }) {
       try {
         setWeather({ state: "loading" });
         const response = await fetch(
-          `${baseUrl}${forecastUrl}?key=${apiKey}&q=${locationQuery}&days=5`
+          `${baseUrl}${forecastUrl}?key=${API_KEY}&q=${locationQuery}&days=5`
         );
         if (!response.ok) {
           return setWeather({
