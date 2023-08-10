@@ -1,27 +1,27 @@
 
 <div id="header" align="center">
   <h1>AvivaWeatherWise</h1>
-<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/719d4b94-fe8a-46e6-b4ac-459c37b27655" width="300">
+<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/4f358b15-f1a5-406a-927a-5331b73d18c5" width="600">
   <p/>
   <p/>
 I have made this application for the purpose of a software assesment for Aviva.
 </div>
 
 <div id="socialMedia" align="center">
+
   
 <h3>Current and Forecast</h3>
-<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/c7b42663-dac0-40d1-bb92-79bc01c9cfb4" width="200">
-<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/a159b018-4323-454d-9a27-80cb01ec5026" width="200">
+<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/e6f95d5b-ce9b-4c87-bd74-cbbf75cf3392" width="200">
+<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/834082e3-7b5c-4033-9f27-2e413290bb58" width="200">
   
 <h3>Location Search</h3>
-<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/010f083d-e264-482a-8b44-7abdcdc899a4" width="200">
-<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/e215d73f-89c2-48c8-a73f-b28e809acbb7" width="200">
-<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/dd96699e-3528-457c-990a-accee0fd1f70" width="200">
+<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/0f0fe506-b9a3-48ab-9d3c-b8a4edd24f72" width="200">
+<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/4725511e-97f8-42e7-bcc9-5e6440799d95" width="200">
+<img src="https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/076b10df-29e8-421f-96e5-ca59c1dd0be4" width="200">
 
-https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/f2551afe-8f30-4e6d-9a4d-dc345ff20f36
+https://github.com/Laurencarne/AvivaWeatherWise/assets/43895098/0706cb7f-dd74-4710-ad9a-9847eef3d1bb
 
 </div>
-
 
 
 ## Main technologies used
