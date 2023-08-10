@@ -9,7 +9,9 @@ import { DateTime } from "luxon";
  */
 export function getTimestamp(time: string) {
   const formattedTime = DateTime.fromFormat(time.replace(":", " "), "hh mm a");
-  return formattedTime.toLocaleString(DateTime.TIME_SIMPLE);
+  return formattedTime.isValid
+    ? formattedTime.toLocaleString(DateTime.TIME_SIMPLE)
+    : "--";
 }
 
 /**

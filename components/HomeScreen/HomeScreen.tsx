@@ -130,7 +130,7 @@ const CurrentWeather = React.memo(({ weather }: { weather: Weather }) => {
           style={styles.currentWeatherIcon}
         />
         <Text variant="extraBold" style={styles.currentWeatherTemp}>
-          {temp_c.toString() + "°"}
+          {Math.round(temp_c).toString() + "°"}
         </Text>
       </View>
       <Text variant="bold">{condition.text}</Text>
@@ -147,7 +147,7 @@ const WeatherSummary = React.memo(({ weather }: { weather: Weather }) => {
       <View style={[styles.tableContainer, styles.shadowLow]}>
         <Row
           title={"RealFeel"}
-          description={weather.feelslike_c.toString() + "°"}
+          description={Math.round(weather.feelslike_c).toString() + "°"}
         />
         <Row
           title={"Wind"}
@@ -301,20 +301,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.25,
     elevation: 8,
   },
-  // shadowMedium: {
-  //   shadowColor: colors.black,
-  //   shadowOffset: { width: 0, height: 4 },
-  //   shadowRadius: 20,
-  //   shadowOpacity: 0.5,
-  //   elevation: 12,
-  // },
-  // shadowHigh: {
-  //   shadowColor: colors.black,
-  //   shadowOffset: { width: 0, height: 16 },
-  //   shadowRadius: 40,
-  //   shadowOpacity: 0.75,
-  //   elevation: 16,
-  // },
   // CURRENT WEATHER
   currentWeatherContainer: {
     paddingHorizontal: 44,
