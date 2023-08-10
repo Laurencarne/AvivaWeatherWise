@@ -3,13 +3,13 @@ import {
   ScrollView,
   StyleProp,
   StyleSheet,
+  View,
   ViewStyle,
 } from "react-native";
 import { Text } from "../DesignSystem/Text";
 import React, { useCallback, useContext, useEffect, useState } from "react";
 import type { Navigation } from "../Navigation/MainStack.types";
 import { NavBar, NavBarButton } from "../NavBar";
-import { View } from "moti";
 import { colors } from "../DesignSystem/colors";
 import { icons } from "../DesignSystem/icons/index";
 import { getTimestamp, getUVIndex } from "../helpers";
