@@ -58,6 +58,9 @@ git clone < project-url.git >
 - Launch ``` yarn ``` command in a terminal opened in the project folder.
 > This command will look into the *package.json* file and install all the dependencies listed here.
 
+- Enter the ``` API_KEY ``` into .env
+> This was sent separatly via email.
+
 - Launch ``` yarn start ``` command in a terminal
 > This command will look into the *package.json* file and run ``` expo start ```
 
